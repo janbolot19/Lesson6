@@ -1,0 +1,48 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!--      
+Домашнее Задание: 
+1) Доработать код, который был написан на уроке. Создать функционал на кнопку prev и next делать запрос при нажатии на эти функции
+
+2) Так же сделать отдельный fetch запрос на эту ссылку: 'https://jsonplaceholder.typicode.com/posts' и отобразить данные просто в консоли -->
+
+    <style>
+        .block {
+            background-color: yellowgreen;
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            border: 2px solid;
+            padding: 5px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        button{
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: grey;
+            height: 30px;
+            width: 60px;
+            margin-left: 55px;
+
+        }
+    </style>
+
+<div>
+    <button class="btn-prev">PREV</button>
+    <button class="btn-next">NEXT</button>
+</div>
+
+<div class="block"></div>
+
+
+</head>
+<script src="app.js"></script>
+<body>
